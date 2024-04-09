@@ -8,9 +8,9 @@ This repo is based on the OpenSource Project [MMAction2](https://github.com/open
 <div id="wrapper" align="center">
 <figure>
   <img src="WLASL2000.png" width="250px">
-  <p style="font-size:1.3vw;">Holistic-based Cross Attention Modal Fusion Network for Video Sign Language Recognition Results on WLASL-2000 dataset. </p>
+  <p style="font-size:1.3vw;">CAMFuse Network for Video Sign Language Recognition Results on WLASL-2000 dataset. </p>
   <img src="AUTSL.png" width="250px"><br>
-  <p style="font-size:1.3vw;">Holistic-based Cross Attention Modal Fusion Network for Video Sign Language Recognition Results on AUTSL dataset. </p>
+  <p style="font-size:1.3vw;">CAMFuse Network for Video Sign Language Recognition Results on AUTSL dataset. </p>
 </figure>
 </div>
 
@@ -66,7 +66,7 @@ We employ MMPose for whole-body pose estimation, leveraging holistic keypoint an
 Specifically, we provide HRNet 2D skeletons for the supported datasets. To obtain the human skeleton annotations, you can:
 
 1. Use the processed skeleton annotations for WLASL-2000 and AUTSL datasets as pickle files, which can be directly used for model training and testing. 
-2. You can follow the [diving48_example](/examples/extract_diving48_skeleton/diving48_example.ipynb) to  extract 2D HRNet skeletons from RGB videos of sign language datasets.
+2. You can follow the [generate_skeleton](/examples/extract_diving48_skeleton/diving48_example.ipynb) to  extract 2D HRNet skeletons from RGB videos of sign language datasets.
 
 Consequently, we transform the joints coordinates into heatmaps by the [generate_heatmap](), which is set to be one-fourth of the size of RGB frames. You can use [vis_heatmap](/demo/vis_skeleton.ipynb) to visualize the provided skeleton heatmaps.
 
