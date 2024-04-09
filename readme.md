@@ -7,9 +7,9 @@ This repo is based on the OpenSource Project [MMAction2](https://github.com/open
 
 <div id="wrapper" align="center">
 <figure>
-  <img src="/data/code/pyskl/WLASL2000.png" width="250px">
+  <img src="WLASL2000.png" width="250px">
   <p style="font-size:1.3vw;">Holistic-based Cross Attention Modal Fusion Network for Video Sign Language Recognition Results on WLASL-2000 dataset. </p>
-  <img src="/data/code/pyskl/AUTSL.png" width="250px"><br>
+  <img src="AUTSL.png" width="250px"><br>
   <p style="font-size:1.3vw;">Holistic-based Cross Attention Modal Fusion Network for Video Sign Language Recognition Results on AUTSL dataset. </p>
 </figure>
 </div>
@@ -72,9 +72,9 @@ Consequently, we transform the joints coordinates into heatmaps by the [generate
 
 <div id="wrapper" align="center">
 <figure>
-  <img src="/data/code/pyskl/demo.gif" width="250px">
+  <img src="demo.gif" width="250px">
   <p style="font-size:1.3vw;">The skeleton visualization of the sign language "bottle". </p>
-  <img src="/data/code/pyskl/demo2.gif" width="250px"><br> 
+  <img src="demo2.gif" width="250px"><br> 
   <p style="font-size:1.3vw;">The heatmap visualization of the sign language "bottle". </p>
 </figure>
 </div>
